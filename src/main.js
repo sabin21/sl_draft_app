@@ -13,7 +13,7 @@ modules: [Autoplay, EffectFade],
   fadeEffect: { crossFade: true },
   speed: 2500,
   autoplay: {
-    delay: 2500,
+    delay: 1500,
     disableOnInteraction: false
   },
   slidesPerView: 1,

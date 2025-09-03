@@ -86,13 +86,13 @@ a{ text-decoration: none;}
   >.index-container{
     width:100%; max-width: 1200px; padding: 100px 40px;
     >.head-wrap{
-      width: 100%; padding-bottom: 80px;
+      width: 100%; padding-bottom: 40px;
       >h1{
-        font-size: 2.5vw;
+        font-size: 3vw;
       }
     }
     >.draft-block{
-      width:100%; border-top: 1px solid #c9cdcf; padding: 40px 0;
+      width:100%; border-top: 1px solid #c9cdcf; padding: 40px 0; margin-top: 32px;
       >.links-wrap{
         width: 100%; display: flex; gap: 32px; padding: 40px 0;
         >.link-item{
@@ -112,7 +112,7 @@ a{ text-decoration: none;}
 
 .draft-block{
   >.draft-item-wrap{
-    width:100%; display: flex; gap: 4%;
+    width:100%; display: flex; gap: 5%;
     a{
       >.thumb{
         width:440px; border: 1px solid gray;
@@ -121,14 +121,27 @@ a{ text-decoration: none;}
     
     >.desc-wrap{
       width:100%;
+      >h2{ font-size: 28px;}
       >ul{
-        padding: 16px 0;
+        padding: 16px 60px 0 0;
         >li{
-          font-size: 16px; word-break: keep-all; padding: 12px 0;
-          line-height: 1.4em;
+          font-size: 18px; word-break: keep-all; padding: 12px 0;
+          line-height: 1.4em; font-weight: 500;
+          color:#515151;
           &.summary{
-            font-size: 20px; font-weight: 700;
+            font-size: 22px; font-weight: 700;
+            color:#131416;
           }
+        }
+      }
+      >.btn{
+        display: flex; width:180px;
+        padding: 20px 24px; background-color: #26292c;
+        color: white; font-weight: 700; border-radius: 8px;
+        margin-top: 16px; text-align: center;
+        justify-content: space-between; align-items: center;
+        &:hover{
+          background-color: black;
         }
       }
     }
