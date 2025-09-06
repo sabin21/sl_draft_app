@@ -1,6 +1,7 @@
 import '../public/styles/normalize.css'
 import '../public/styles/common.css'
 import '../public/styles/type_b.css'
+import '/src/leftNav.js';
 
 import { Pane } from "https://cdn.skypack.dev/tweakpane@4.0.4";
 
